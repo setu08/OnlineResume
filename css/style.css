@@ -61,7 +61,6 @@ h5 {
 
 }
 
-
 .date-text {
   font-style: italic;
   font-size: 14px;
@@ -127,9 +126,9 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
+/* Adding background layered image*/
 #header {
-  background-color: #484848;
+  background: url('../images/bg.png') repeat;
 }
 
 .flex-box {
@@ -169,6 +168,7 @@ img {
 
 span {
   padding: 5px;
+  color: #ffffff;
 }
 
 #lets-connect {

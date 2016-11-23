@@ -12,7 +12,7 @@ var bio = {
     "skills": [
         "HTML 5", "CSS 3", "JavaScript", "Programming"
     ],
-    "bioPic": "images/me.jpg",
+    "biopic": "images/me.jpg",
     //Encapsulated function
     "display": function() {
         var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
@@ -39,7 +39,7 @@ var bio = {
         $("#topContacts").append(formattedGit);
         var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
         $("#topContacts").append(formattedLocation);
-        var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
+        var formattedPic = HTMLbioPic.replace("%data%", bio.biopic);
         $("#header").append(formattedPic);
         var formattedMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
         $("#header").append(formattedMsg);
@@ -60,19 +60,22 @@ var education = {
         "location": "Vellore, India",
         "degree": "B.Tech",
         "majors": ["Information Technology"],
-        "dates": "2012 - 2016"
+        "dates": "2012 - 2016",
+        "url": "http://www.vit.ac.in"
     }, {
         "name": "Maharishi Vidya Mandir",
         "location": "Bhopal, India",
         "degree": "XIIth, CBSE Board",
         "majors": ["Mathematics", "Physics", "Chemistry"],
-        "dates": "2011 - 2012"
+        "dates": "2011 - 2012",
+        "url": "http://www.maharishividyamandir.com"
     }, {
         "name": "Maharishi Vidya Mandir",
         "location": "Bhopal, India",
         "degree": "Xth, CBSE",
         "majors": ["Science and Mathematics"],
         "dates": "2010",
+        "url": "http://www.maharishividyamandir.com"
     }],
     "onlineCourses": [{
         "title": "Nanodegree in Front-end Web devolopment",
